@@ -1,0 +1,14 @@
+body {
+    background-color: #ffde59;
+    color: blueviolet;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid_image {
+    text-align: center;
+    width: 60%;
+}
