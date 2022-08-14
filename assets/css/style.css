@@ -3,6 +3,21 @@ body {
     color: blueviolet;
 }
 
+/* Header */
+
+header {
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 80%;
+}
+
+h1 {
+    color: #ffde59;
+    margin: 5px;
+}
+
 .maingrid {
     display: grid;
     grid-template-columns: 1fr;
