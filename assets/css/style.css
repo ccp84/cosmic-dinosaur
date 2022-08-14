@@ -18,7 +18,9 @@ h1 {
     margin: 5px;
 }
 
-.maingrid {
+/* Main Page */
+
+.main_grid {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -26,8 +28,15 @@ h1 {
 .grid_image {
     text-align: center;
     width: 100%;
+    max-width: 600px;
 }
 
+/* About me */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 /* 
@@ -36,8 +45,14 @@ h1 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .grid_image {
-        width: 80%;
+    .main_grid {
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 2fr;
     }
 }
 
