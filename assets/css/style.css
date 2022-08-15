@@ -5,12 +5,9 @@ body {
 
 /* Header */
 
-header {
-    background-color: blueviolet;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    opacity: 80%;
+.banner {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -25,8 +22,7 @@ h1 {
     grid-template-columns: 1fr;
 }
 
-.grid_image {
-    text-align: center;
+.grid_pic {
     width: 100%;
     max-width: 600px;
 }
