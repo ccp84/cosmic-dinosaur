@@ -31,13 +31,27 @@ li {
     list-style: none;
 }
 
+header a {
+    color: #ffde59;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #ffde59;
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: underline;
+}
+
 /* Main Page */
 
 .main_grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .grid_pic {
@@ -45,8 +59,26 @@ li {
     max-width: 600px;
 }
 
+a h2 {
+    color: blueviolet;
+    text-decoration: none;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+a h2:hover {
+    color: #ffde59;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+a h2:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+
 h2 {
-    margin: 10px;
+    padding: 20px;
 }
 
 /* About me */
