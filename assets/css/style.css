@@ -15,11 +15,17 @@ h1 {
     margin: 5px;
 }
 
+h2 {
+    margin: 10px;
+}
+
 /* Main Page */
 
 .main_grid {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .grid_pic {
@@ -30,8 +36,10 @@ h1 {
 /* About me */
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -41,15 +49,7 @@ h1 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .main_grid {
-        display: grid;
-        grid-template-columns: 3fr;
-    }
-
-    .about {
-        display: grid;
-        grid-template-columns: 2fr;
-    }
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
