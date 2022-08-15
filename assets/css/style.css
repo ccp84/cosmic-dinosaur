@@ -3,6 +3,10 @@ body {
     color: blueviolet;
 }
 
+html, body { 
+    height: 100%;
+}
+
 /* Header */
 
 .banner {
@@ -13,10 +17,6 @@ body {
 h1 {
     color: #ffde59;
     margin: 5px;
-}
-
-h2 {
-    margin: 10px;
 }
 
 /* Main Page */
@@ -33,6 +33,10 @@ h2 {
     max-width: 600px;
 }
 
+h2 {
+    margin: 10px;
+}
+
 /* About me */
 
 .about {
@@ -42,6 +46,27 @@ h2 {
     justify-content: space-between;
 }
 
+/* Footer */
+
+footer {
+    background-color: blueviolet;
+    color: #ffde59;
+    height: 50px;
+    width: 100%;
+}
+
+footer a {
+    color: #ffde59;
+}
+
+footer a:visited {
+    color: #ffde59;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+  }
 
 /* 
 * Media Queries
