@@ -59,26 +59,22 @@ header a:visited {
     max-width: 600px;
 }
 
-a h2 {
+h2 {
+    padding: 20px;
+}
+
+.landing {
     color: blueviolet;
     text-decoration: none;
     border-style: solid;
     border-color: blueviolet;
+    margin: 10px;
 }
 
-a h2:hover {
+.landing:hover {
     color: #ffde59;
     background-color: blueviolet;
     text-decoration: none;
-}
-
-a h2:visited {
-    color: blueviolet;
-    text-decoration: none;
-}
-
-h2 {
-    padding: 20px;
 }
 
 /* About me */
