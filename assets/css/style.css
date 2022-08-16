@@ -77,9 +77,9 @@ h2 {
     text-decoration: none;
 }
 
-/* About me */
+/* About me and content*/
 
-.about {
+.about, .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +87,8 @@ h2 {
     border-color: blueviolet;
     margin: 5px;
 }
+
+
 
 /* Footer */
 
@@ -123,7 +125,7 @@ body > footer {
         justify-content: space-around;
     }
 
-    .about {
+    .about, .content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
