@@ -50,7 +50,8 @@ header a:visited {
 .main_grid {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
 }
 
 .grid_pic {
@@ -81,7 +82,10 @@ h2 {
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    border-style: dotted;
+    border-color: blueviolet;
+    margin: 5px;
 }
 
 /* Footer */
