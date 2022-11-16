@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
 body {
+    font-family: 'Cairo', sans-serif;
     background-color: #ffde59;
     color: blueviolet;
 }
@@ -88,7 +91,9 @@ h2 {
     margin: 5px;
 }
 
-
+p {
+    margin: 10px;
+}
 
 /* Footer */
 
